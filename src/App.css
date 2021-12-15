@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  background-color:darkgray;
+  padding: 2rem;
+}
+
+.design2 {
+  display: grid;
+  grid-template-columns: 10fr 10fr;
+  grid-gap: 1rem;
+}
+
+.design {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(214, 161, 62);
+  opacity: 0.9;
+  width: 40rem;
+  border-radius: 2rem;
+  padding: 2rem;
+}
+
+.header {
+  text-align: center;
+}
+.text {
+  font-size: 4rem;
+  color: white;
+}
+
+
+.img2{
+  display: flex;
+  justify-content: center;
+}
